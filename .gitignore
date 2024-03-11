@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/
+problem-solving-with-kotlin.iml
 
 ### Eclipse ###
 .apt_generated
