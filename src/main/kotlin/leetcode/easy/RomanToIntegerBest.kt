@@ -25,7 +25,7 @@ fun Char.romanToInteger(): Int = when (this) {
     else -> 0
 }
 
-class BestSolution {
+class RomanToIntegerBestSolution {
     fun romanToInt(s: String): Int {
         if (s.length == 1) return s[0].romanToInteger()
         var previousIndex = 0
@@ -52,6 +52,6 @@ class BestSolution {
 }
 
 fun main() {
-    val solution = BestSolution()
+    val solution = RomanToIntegerBestSolution()
     println(solution.romanToInt("MCMXCIV"))
 }

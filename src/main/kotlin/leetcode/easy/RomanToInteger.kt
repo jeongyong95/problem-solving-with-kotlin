@@ -14,7 +14,7 @@ package leetcode.easy
  * X can be placed before L (50) and C (100) to make 40 and 90.
  * C can be placed before D (500) and M (1000) to make 400 and 900.
  */
-class Solution {
+class RomanToIntegerSolution {
     companion object {
         val multiNums =
             mapOf("CD" to 400, "CM" to 900, "XL" to 40, "XC" to 90, "IV" to 4, "IX" to 9)
@@ -50,6 +50,6 @@ class Solution {
 }
 
 fun main() {
-    val solution = Solution()
+    val solution = RomanToIntegerSolution()
     println(solution.romanToInt("MCMXCIV"))
 }
